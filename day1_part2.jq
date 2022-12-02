@@ -1,1 +1,9 @@
-split("\n") | reduce .[] as $x ({n:0,a:[[]]}; if $x == "" then .n += 1 | .a += [[]] else .a[.n] += [$x|tonumber] end) | .a | map(add)| sort | .[-3:] | add
+split("\n") | .[:-1] |
+reduce .[] as $x (
+  [[]];
+  if $x == "" then
+    . += [[]]
+  else
+    .[-1] += [$x|tonumber]
+  end
+) | map(add)| sort | .[-3:] | add
