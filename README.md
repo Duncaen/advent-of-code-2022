@@ -10,9 +10,17 @@ $ jq -Rsf day1_part2.jq day1.test.in
 ```
 
 ## Day 2
+
 ```
 $ jq -Rsf day2_part1.jq day2.test.in
 15
 $ jq -Rsf day2_part2.jq day2.test.in
 12
+```
+
+## Day 3
+
+```
+$ jq -Rsnf day3_part1.jq day3.test.in
+157
 ```
