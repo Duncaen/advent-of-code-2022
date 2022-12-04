@@ -26,3 +26,10 @@ $ jq -Rsnf day3_part1.jq day3.test.in
 $ jq -Rsnf day3_part2.jq day3.test.in
 70
 ```
+
+## Day 4
+
+```
+$ jq -Rsf day4_part1.jq day4.test.in
+2
+```
