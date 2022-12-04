@@ -32,4 +32,6 @@ $ jq -Rsnf day3_part2.jq day3.test.in
 ```
 $ jq -Rsf day4_part1.jq day4.test.in
 2
+$ jq -Rsf day4_part2.jq day4.test.in
+4
 ```
