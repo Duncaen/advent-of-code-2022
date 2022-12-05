@@ -35,3 +35,10 @@ $ jq -Rsf day4_part1.jq day4.test.in
 $ jq -Rsf day4_part2.jq day4.test.in
 4
 ```
+
+## Day 5
+
+```
+$ jq -Rnsf day5_part1.jq day5.test.in
+"CMZ"
+```
