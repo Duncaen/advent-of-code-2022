@@ -44,3 +44,13 @@ $ jq -Rnsf day5_part1.jq day5.test.in
 $ jq -Rnsf day5_part2.jq day5.test.in
 "MCD"
 ```
+
+## Day 6
+
+```
+$ jq -Rnf day6_part1.jq day6.test.in
+5
+6
+10
+11
+```
