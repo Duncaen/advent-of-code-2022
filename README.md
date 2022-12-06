@@ -53,4 +53,10 @@ $ jq -Rnf day6_part1.jq day6.test.in
 6
 10
 11
+$ jq -Rnf day6_part2.jq day6.part2.test.in
+19
+23
+23
+29
+26
 ```
