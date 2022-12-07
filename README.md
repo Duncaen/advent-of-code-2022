@@ -66,4 +66,6 @@ $ jq -Rnf day6_part2.jq day6.part2.test.in
 ```
 $ jq -Rnf day7_part1.jq day7.test.in
 95437
+$ jq -Rnf day7_part2.jq day7.test.in
+24933642
 ```
