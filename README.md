@@ -69,3 +69,10 @@ $ jq -Rnf day7_part1.jq day7.test.in
 $ jq -Rnf day7_part2.jq day7.test.in
 24933642
 ```
+
+## Day 8
+
+```
+$ time jq -Rnf day8_part1.jq.1 day8.test.in
+21
+```
