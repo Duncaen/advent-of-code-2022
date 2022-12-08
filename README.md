@@ -73,6 +73,8 @@ $ jq -Rnf day7_part2.jq day7.test.in
 ## Day 8
 
 ```
-$ time jq -Rnf day8_part1.jq.1 day8.test.in
+$ time jq -Rnf day8_part1.jq day8.test.in
 21
+$ time jq -Rnf day8_part2.jq day8.test.in
+8
 ```
