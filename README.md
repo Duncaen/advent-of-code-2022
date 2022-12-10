@@ -519,3 +519,10 @@ $ jq -Rnf day9_part2.jq day9.test.in
 ["DEBUG:",["6",".",".","."]]
 1
 ```
+
+# Day 10
+
+```
+$ jq -Rnf day10_part1.jq day10.test.in
+13140
+```
