@@ -539,4 +539,6 @@ $ jq -Rnf day10_part2.jq day10.test.in
 ```
 $ jq -Rsnf day11_part1.jq day11.test.in 2>/dev/null
 10605
+$ jq -Rsnf day11_part2.jq day11.test.in
+2713310158
 ```
