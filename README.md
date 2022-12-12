@@ -542,3 +542,10 @@ $ jq -Rsnf day11_part1.jq day11.test.in 2>/dev/null
 $ jq -Rsnf day11_part2.jq day11.test.in
 2713310158
 ```
+
+# Day 12
+
+```
+$ jq -Rnf day12_part1.jq day12.test.in
+31
+```
