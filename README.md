@@ -551,3 +551,10 @@ $ jq -Rnf day12_part1.jq day12.test.in
 $ jq -Rnf day12_part2.jq day12.test.in
 29
 ```
+
+# Day 13
+
+```
+% jq -Rsnf day13_part1.jq day13.test.in
+13
+```
